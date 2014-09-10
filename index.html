@@ -26,7 +26,7 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="css/animate.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,9 +76,9 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in"></div>
-                <div class="intro-heading">Flex your creative writing muscle</div>
-                <p class="intro-subheading">Write daily. Write more.</p>
-                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
+                <div class="intro-heading wow fadeInDown">Flex your creative writing muscle</div>
+                <p class="intro-subheading wow fadeInDown">Write daily. Write more.</p>
+                <a href="#about" class="page-scroll btn btn-xl wow fadeInUp">Learn More</a>
             </div>
         </div>
     </header>
@@ -86,14 +86,14 @@
     <!-- about Section -->
     <section id="about">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInDown">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">What is WritersMob?</h2>
                     <h3 class="section-subheading text-muted">WritersMob is a place for writers to work on their creative writing skill by doing fun daily writing challenges.  </h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-file-text fa-stack-1x fa-inverse"></i>
@@ -101,7 +101,7 @@
                     <h4 class="service-heading">Daily Challenge</h4>
                     <p class="text-muted">Commit 5 minutes to write whatever is in your mind in response to the challenge. Go beyond 5 minutes if you're on a roll.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInDown">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-reply fa-stack-1x fa-inverse"></i>
@@ -109,7 +109,7 @@
                     <h4 class="service-heading">Read &amp; Share your thoughts</h4>
                     <p class="text-muted">Read what others wrote to the challenge, and provide <b>positive</b> and <b>constructive</b> feedbacks.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInRight">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
@@ -126,9 +126,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Signup for WritersMob Beta</h2>
-                    <h3 class="section-subheading text-muted">Be one the first to join WritersMob beta by signing up below.</h3>
-                    <div id="mc_embed_signup">
+                    <h2 class="section-heading wow fadeInDown">Signup for WritersMob Beta</h2>
+                    <h3 class="section-subheading text-muted wow fadeInDown">Be one the first to join WritersMob beta by signing up below.</h3>
+                    <div id="mc_embed_signup" class="wow fadeInUp">
                         <form action="//writersmob.us9.list-manage.com/subscribe/post?u=98aab29c1b7f1f3c18724a77d&amp;id=a6b00c02b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
                         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
@@ -185,6 +185,11 @@
 
         ga('create', 'UA-54676218-1', 'auto');
         ga('send', 'pageview');
+    </script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+     new WOW().init();
     </script>
 </body>
 
