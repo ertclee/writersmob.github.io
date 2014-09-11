@@ -815,6 +815,10 @@ li#facebook a:active  {
     background-color: #46629E;
 }
 
+li#copyright { 
+    color: #fff;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
